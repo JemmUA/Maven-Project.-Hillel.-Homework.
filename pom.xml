@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>ua.ithillel</groupId>
+    <artifactId>mavenProJ</artifactId>
+    <version>1.0.1</version>
+
+    <properties>
+        <maven.compiler.source>18</maven.compiler.source>
+        <maven.compiler.target>18</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <lombok.version>1.18.24</lombok.version>
+        <tomcat-embed-core.version>10.1.2</tomcat-embed-core.version>
+        <gravitee-am-model.version>3.19.3</gravitee-am-model.version>
+        <za.co.absa.commons.version>1.3.2</za.co.absa.commons.version>
+        <x2cpg_3.version>1.1.1312</x2cpg_3.version>
+    </properties>
+
+    <name>Maven Test Project</name>
+    <description>Maven Project. Homework. Hillel Pro.</description>
+<dependencies>
+    <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+    <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+        <version>${lombok.version}</version>
+        <scope>provided</scope>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-core -->
+    <dependency>
+        <groupId>org.apache.tomcat.embed</groupId>
+        <artifactId>tomcat-embed-core</artifactId>
+        <version>${tomcat-embed-core.version}</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/io.gravitee.am.model/gravitee-am-model -->
+    <dependency>
+        <groupId>io.gravitee.am.model</groupId>
+        <artifactId>gravitee-am-model</artifactId>
+        <version>${gravitee-am-model.version}</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/za.co.absa.commons/commons -->
+    <dependency>
+        <groupId>za.co.absa.commons</groupId>
+        <artifactId>commons_2.13</artifactId>
+        <version>${za.co.absa.commons.version}</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/io.joern/x2cpg -->
+    <dependency>
+        <groupId>io.joern</groupId>
+        <artifactId>x2cpg_3</artifactId>
+        <version>${x2cpg_3.version}</version>
+    </dependency>
+
+</dependencies>
+
+</project>
